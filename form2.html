@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Step4</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="block block-3">
+    <div class="container cont-step3">
+        <form id="form" action="javascript:void(0) ">
+            <h5 class="title-step3">Данные о ваших доходах</h5>
+            <div class="person_name person_name2">
+                <div>
+                    <input type="text" id="NameCompany" class="person-form person-form4-width" data-required placeholder="Наименование организации">
+                    <p id="pElement"></p>
+                </div>
+
+                <input type="text" id="jobTitle" class="person-form" data-required placeholder="Должность">
+                <input type="number" id="Salary1" class="person-form width4-3" placeholder="Заработная плата в  месяц" name="wag-month" required>
+                <input type="number" id="Salary3" class="person-form width4-3" placeholder="Заработная Плата  за посл.  3 месяца" name="wag-month3" required>
+            </div>
+            <div class="passport_form">
+                <p class="text-step3 text-step3-bottom">Сведения о кредите</p>
+                <div class="person_passport">
+                    <input type="text" id="NameProduct" class="person-form width4-4" placeholder="Покупка телефона ( наименование товара)" name="buy" required>
+                    <input type="number" id="PriceProduct" class="person-form" placeholder="Стоимость товара" name="price goods" required>
+                    <input type="number" id="NumberProduct" class="person-form" placeholder="Количество товара" name="number goods" required>
+                    <input type="number" id="CreditProduct" class="person-form" placeholder="Итого сумма кредита" name="credit amount" required>
+                    <div class="select-left">
+                        <select name="Select-credit" class="person-form select-form">
+                            <option value="1">Вид кредита</option>
+                            <option value="2">Потребительские кредиты</option>
+                            <option value="3">Ипотечные кредиты</option>
+                            <option value="2">Жилищный кредит</option>
+                        </select>
+                        <select name="Select-month" class="person-form select-form">
+                            <option value="1">Срок кредита ( мес)</option>
+                            <option value="2">12 месяцев</option>
+                            <option value="3">3 месяца</option>
+                            <option value="2">6 месяцев</option>
+                        </select>
+                    </div>
+                    <select name="Select-month" class="person-form width4-4">
+                        <option value="1">Точка получения товара</option>
+                        <option value="2">Точка 1</option>
+                        <option value="3">Точка 2</option>
+                        <option value="2">Точка 3</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn">Далее</button>
+        </form>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

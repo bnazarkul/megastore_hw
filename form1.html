@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Step3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="block block-3">
+    <div class="container cont-step3">
+        <h5 class="title-step3">Анкета для корпоративных клиентов</h5>
+        <form id="form" action="javascript:void(0) ">
+            <p class="text-step3">Личные данные</p>
+            <div class="person_name">
+                <div>
+                <input type="text" id="lastName" data-required placeholder="Фамилия">
+                </div>
+                <p id="pElement"></p>
+                <div>
+                    <input type="text" id="Name" data-required placeholder="Имя">
+                    <p id="pElement"></p>
+                </div>
+                <div>
+                    <input type="text" id="surname" data-required placeholder="Отчество" name="surname">
+                    <p id="pElement"></p>
+                </div>
+
+            </div>
+                <p class="text-step3 text-step3-bottom">Паспортные данные</p>
+                <div class="person_passport">
+                    <div>
+                        <input type="date" id="birthdayDate" class="person-form" data-required placeholder="Дата рождения">
+                        <p id="pElement"></p>
+                    </div>
+                    <div>
+                        <input type="text" id="address" class="person-form form-width" data-required placeholder="Место проживания по прописке">
+                        <p id="pElement"></p>
+                    </div>
+                    <div>
+                        <input type="text" id="serialNumber" class="person-form" data-required placeholder="Серийный номер AN/ID">
+                        <p id="pElement"></p>
+                    </div>
+                   <div>
+                       <input type="text" id="passportNumber" class="person-form" data-required placeholder="ИНН">
+                       <p id="pElement"></p>
+                   </div>
+                   <div>
+                       <input type="date" id="dateReceived"  class="person-form" data-required placeholder="Дата получения">
+                       <p id="pElement"></p>
+                   </div>
+                    <div>
+                        <input type="text" id="number" class="person-form" data-required placeholder="Контактный номер">
+                        <p id="pElement"></p>
+                    </div>
+                   <div>
+                       <input type="text" id="email" class="person-form" data-required placeholder="Электронный адрес">
+                       <p id="pElement"></p>
+                   </div>
+                    <div>
+                        <select name="Bank-name" data-required class="person-form select-form">
+                            <option value="1" ></option>
+                            <option value="2">ОАО Демир Банк</option>
+                            <option value="3">ОАО Дос-Кредобанк</option>
+                            <option value="2">ОАО Демир Банк</option>
+                            <option value="3">ОАО Дос-Кредобанк</option>
+                        </select>
+                        <p id="pElement"></p>
+                    </div>
+                   <div>
+                       <input type="text" class="person-form form-width" data-required placeholder="Фактическое место проживания">
+                       <p id="pElement"></p>
+                   </div>
+                </div>
+            <button type="submit" class="btn">Далее</button>
+        </form>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

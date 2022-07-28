@@ -23,7 +23,6 @@ form.addEventListener('submit', () => {
 })
 
 
-/*
 nameField.addEventListener('focus', () => {
     nameField.classList.add('box-shadow');
 })
@@ -31,4 +30,3 @@ nameField.addEventListener('focus', () => {
 nameField.addEventListener('blur', () =>{
     nameField.classList.remove('box-shadow');
 })
-*/
